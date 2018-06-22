@@ -1,0 +1,39 @@
+{
+  "name": "javascript-design-patterns",
+  "version": "0.0.1",
+  "description": "GoF Design Patterns in JavaScript",
+  "main": "test/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "debug " : "nodemon bin/dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azeemmirza/javascript-design-patterns.git"
+  },
+  "keywords": [
+    "design",
+    "patterns",
+    "javascript",
+    "es5",
+    "es6"
+  ],
+  "author": {
+    "name": "Azeem Mirza",
+    "email": "contact@azeemmirza.com",
+    "url": "https://azeemirza.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azeemmirza/javascript-design-patterns/issues"
+  },
+  "homepage": "https://github.com/azeemmirza/javascript-design-patterns#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
