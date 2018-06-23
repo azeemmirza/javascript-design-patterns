@@ -1,15 +1,21 @@
 import Singleton from "./Singleton/Singleton";
 
-let singleton = new Singleton();
-singleton.name = 'Tester';
 
-console.log(singleton.name);
+function singletonTest () {
 
-let single2 = new Singleton();
+    let instanceOne = new Singleton();
+    let instanceTwo = new Singleton();
 
-console.log(single2.name);
-single2.name = 'Azeem';
+    instanceOne.name = 'Test-1';
 
-console.log('FINAL:');
-console.log(singleton.name);
-console.log(single2.name);
+    console.log(instanceOne.name);
+    console.log(instanceTwo.name);
+
+    instanceTwo.name = 'Test-2';
+
+    console.log(instanceOne.name);
+    console.log(instanceTwo.name);
+}
+
+
+
